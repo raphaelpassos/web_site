@@ -2,7 +2,7 @@
 
 <p>
   <strong>Work:</strong>
-  <%= @project.work %>
+  <img src= "<%= @project.work %>" style= "width: 400px">
 </p>
 
 <p>
@@ -15,5 +15,5 @@
   <%= @project.year %>
 </p>
 
-<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Edit', edit_project_path(@project) %> 
 <%= link_to 'Back', projects_path %>
