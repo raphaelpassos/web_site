@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
     @agencies  = Agency.all
-    @Projects = Project.all
+    @projects = Project.all
   end
 end
