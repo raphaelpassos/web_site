@@ -1,0 +1,15 @@
+current directory: /home/raphael/job/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/home/raphael/.rbenv/versions/2.6.6/bin/ruby -I /home/raphael/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20211017-263057-11ilbou.rb extconf.rb
+creating Makefile
+
+current directory: /home/raphael/job/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/raphael/job/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/raphael/job/vendor/cache/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20211017-263057-s8rsma/skiptrace/internal
